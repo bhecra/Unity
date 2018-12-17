@@ -1,0 +1,710 @@
+fileFormatVersion: 2
+guid: 3774d5bde0f7193498bc5b24a9078e38
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_0
+    21300002: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_1
+    21300004: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_2
+    21300006: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_3
+    21300008: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_4
+    21300010: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_5
+    21300012: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_6
+    21300014: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_7
+    21300016: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_8
+    21300018: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_9
+    21300020: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_10
+    21300022: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_11
+    21300024: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_12
+    21300026: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_13
+    21300028: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_14
+    21300030: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_15
+    21300032: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_16
+    21300034: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_17
+    21300036: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_18
+    21300038: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_19
+    21300040: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_20
+    21300042: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_21
+    21300044: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_22
+    21300046: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_23
+    21300048: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_24
+    21300050: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_25
+    21300052: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_26
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_0
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 790
+        width: 130
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc11fe1c84835b43a20b5678cafd616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 789
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe067e3d42d333d4586f419cf883925e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 791
+        width: 90
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9aab68dd74911641afd1075ef733135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_3
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 793
+        width: 93
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d5489a3b5e14e4eaf7078ff3557b06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_4
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 790
+        width: 109
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f2ccc3865ea1744a9df4d1feee43d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_5
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 788
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57f65ae16d2f9e49ad60c4917f033d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_6
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 786
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd7a342529c55d4a88a47be0d73f0c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_7
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 782
+        width: 102
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fed5ef99f104e343bfbd82d1e96058e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_8
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 786
+        width: 47
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2865d2f951ff2784fba3ce317e561f7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_9
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 784
+        width: 49
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b746d28b9fb0aa74ba72ee3e84de48db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_10
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 794
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee4f9467df9e864e8f5e74407d77df9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_11
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 784
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdcec066b94a424ba4d603ed149b6b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_12
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 784
+        width: 52
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d62991c8a6d0b48823f1a2cfdd9ed6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 618
+        width: 401
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665e143b7bffc944cbabda5e273bf6d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_14
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 626
+        width: 410
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb54680dafc4f6429c08ae20f6f5bb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_15
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 626
+        width: 411
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09daf30a349d588468a9f0aa4956993b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_16
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 505
+        width: 382
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30860c1c2f928224ea81ec5568a382ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_17
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 270
+        width: 413
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcaa86c703a6fa44b07e36f05161d6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_18
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 505
+        width: 381
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be908417218ce6e47bbb372524f841b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_19
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 384
+        width: 373
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063bc3b9aca8cbc4691ddc7438df905a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_20
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 372
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee134c82acea5bc4781d3bb519d696bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_21
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 270
+        width: 411
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff7109f8bea2d6438368134c1dd0a19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_22
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 270
+        width: 411
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dcf2f9d375add4fa182f6addfabb40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_23
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 12
+        width: 376
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560a7a15a248f7c4e8dec74781b5e1ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_24
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 12
+        width: 398
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08cf4d6d5c69ba438b042141e7ba50f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_25
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 12
+        width: 377
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe6b93f788ff5f4594bdbde167ae498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vector_sprite_artwork_for_matts_by_pasunna_zacrifa-d6cx9xs_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 12
+        width: 376
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55d69f8aee303141960143b15aa62b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b3ad981c86ddbec44b9730b3b3c35945
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -28,8 +28,8 @@ public class ParallaxBG : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        speed = Mathf.Clamp(speed, 0, 2);
-        time += Time.deltaTime;
-        rend.material.mainTextureOffset = new Vector2(time * speed, 0);
+        time += speed * Time.deltaTime;
+        
+        rend.material.mainTextureOffset = new Vector2(time, 0);
     }
 }

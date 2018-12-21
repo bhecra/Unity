@@ -80,6 +80,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD:VideoGame/Assets/AirPlanes/Art/Sprites/Bg/BG.png.meta
+=======
   - serializedVersion: 2
     buildTarget: tvOS
     maxTextureSize: 2048
@@ -124,6 +126,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+>>>>>>> d1d5fa47169c49cc67426bc6927809ddc23a85d8:VideoGame/Assets/Planes/Art/Sprites/Bg/BG.png.meta
   spriteSheet:
     serializedVersion: 2
     sprites: []

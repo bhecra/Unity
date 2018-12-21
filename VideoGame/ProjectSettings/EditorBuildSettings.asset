@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Planes/Scenes/AirPlanes_StarUp.unity
+    guid: 19e5cd2117d80a24a80287f2e340b52f
+  - enabled: 1
+    path: Assets/Planes/Scenes/Airplanes_Main.unity
+    guid: d8bf729a36dd0ea4f926aecb3dfc30bc
   m_configObjects: {}

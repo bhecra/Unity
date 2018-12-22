@@ -10,7 +10,7 @@ public class DataGame {
     private static bool died;
 
     private static int score;
-    private static int healt;
+    private static int healt = 10;
     
     #endregion
 

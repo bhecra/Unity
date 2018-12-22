@@ -16,6 +16,7 @@ public class Player_Controller : MonoBehaviour {
 
     private Rigidbody2D rb2D;
     private Animator animController;
+    private AudioSource audioShoot;
     private bool isCollision = false;
     private float wantedAngle = 30;
     #endregion
@@ -35,6 +36,7 @@ public class Player_Controller : MonoBehaviour {
     void Start () {
         rb2D = this.GetComponent<Rigidbody2D>();
         animController = this.GetComponent<Animator>();
+        audioShoot = this.GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -43,7 +45,6 @@ public class Player_Controller : MonoBehaviour {
 
         if (Input.GetButtonDown("Fire1"))
         {
-            Debug.Log("Presionado");
             HandleShooter();
         }
 
@@ -55,11 +56,11 @@ public class Player_Controller : MonoBehaviour {
     #region Custom Methods
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        /*if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy"))
         {
             isCollision = true;
-            Debug.Log("Collision on");
-        }*/
+            DataGame.Healt--;
+        }
     }
 
     void HandleMovemement()
@@ -71,6 +72,7 @@ public class Player_Controller : MonoBehaviour {
     void HandleShooter()
     {
         animController.SetTrigger("shooter");
+        audioShoot.Play();
         GameObject bulletIns = Instantiate(bullet, pointBullet.position, pointBullet.rotation);
         Physics2D.IgnoreCollision(bulletIns.transform.GetComponent<Collider2D>(), colliderPlayer);
     }

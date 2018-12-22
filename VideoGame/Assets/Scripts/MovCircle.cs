@@ -25,7 +25,7 @@ public class MovCircle : MonoBehaviour {
         tiempo += Time.deltaTime;
         y = (amplitudX * Mathf.Cos(tiempo * speed));
         x = (amplitudY * Mathf.Sin(tiempo * speed));
-        this.transform.position = posActual + new Vector3(x, y, 0);
+        this.transform.localPosition = new Vector3(x, y, 0);
 
     }
 }

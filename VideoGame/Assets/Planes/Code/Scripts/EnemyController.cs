@@ -15,6 +15,8 @@ public class EnemyController : MonoBehaviour {
     public Sprite[] enemiesAir;
     public Sprite[] enemiesObstacles;
 
+    public Transform carEnemy, planeEnemy, obstacleEnemy;
+
     public SpriteRenderer enemiesGroundRender;
     public SpriteRenderer enemiesAirRender;
     public SpriteRenderer enemiesObstaclesRender;
@@ -25,6 +27,7 @@ public class EnemyController : MonoBehaviour {
     public GameObject newEnemyAir = null;
     public GameObject newEnemyObstacle = null;
 
+    float time = 0;
     private float x;
     private float y;
     private float tiempo;
@@ -45,20 +48,47 @@ public class EnemyController : MonoBehaviour {
         enemiesObstaclesRender = enemiesObstaclesRender.transform.GetComponent<SpriteRenderer>();
         enemiesObstaclesRender.sprite = HandleChoiceEnemy(enemiesObstacles);
 
-
-        // Crea los enemigos Enemy
-        newEnemyGround = HandlerCreateEnemies(enemiesGroundRender.gameObject);
-        newEnemyAir = HandlerCreateEnemies(enemiesAirRender.gameObject);
     }
 
+
+
+   
+   
     // Update is called once per frame
     void Update()
     {
-        HandleMovEnemy(newEnemyGround.transform, 1);
-        HandleMovEnemy(newEnemyAir.transform, 2);
-        HandleObstacle(enemiesObstaclesRender.transform);
-        //HandleObstacle();
+
+        
+        time += Time.deltaTime;
+
+        if(time >= 5)
+        {
+            HandlerCreateEnemies(carEnemy.gameObject);
+            HandlerCreateEnemies(planeEnemy.gameObject);
+            HandlerCreateEnemies(obstacleEnemy.gameObject);
+            time = 0;
+        }
+
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+        foreach(GameObject enemy in enemies)
+        { 
+            HandleMovEnemy(enemy.transform, (int)Random.Range(1, 4));
+        }
+
+
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(collision.gameObject);
+            Debug.Log("Chouque, destruir");
+        }
+        
+    }
+
     #endregion
     // Use this for initialization
 
